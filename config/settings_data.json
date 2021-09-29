@@ -55,9 +55,9 @@
     "inventory_enable": false,
     "product_save_amount": false,
     "product_zoom_enable": true,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
-    "product_hover_image": true,
+    "product_hover_image": false,
     "product_grid_image_size": "natural",
     "product_color_swatches": true,
     "collection_color_swatches": true,
@@ -124,8 +124,6 @@
           "1571333807832": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/83C79D79-C6CD-411A-ADED-EB02DF18C245.png",
-              "logo-inverted": "shopify:\/\/shop_images\/BB5C808A-3AF1-448D-98C1-649D0BE5BF04.png",
               "desktop_logo_width": 120,
               "mobile_logo_width": 120
             }
@@ -184,8 +182,8 @@
         "settings": {
           "per_row": 2,
           "collection_image_enable": false,
-          "collection_subnav_style": "none",
-          "collection_tags_style": "dropdown",
+          "collection_subnav_style": "inline",
+          "collection_tags_style": "inline",
           "collection_sort_enable": true
         }
       },
@@ -308,7 +306,6 @@
           "popup_seconds": 3,
           "popup_days": 2,
           "popup_title": "Unlock 15% off",
-          "popup_image": "shopify:\/\/shop_images\/Strata2.jpg",
           "popup_text": "<p>JOIN OUR COMMUNITY TO RECEIVE 15% OFF YOUR FIRST ORDER<\/p>",
           "close_text": "No, I want to pay full price.",
           "enable_newsletter": true,
@@ -651,7 +648,6 @@
           "text": "",
           "button_label": "",
           "button_link": "shopify:\/\/collections\/jackets",
-          "image": "shopify:\/\/shop_images\/IMG_9411.JPG",
           "alignment": "center",
           "color_border": "#f4f4f4",
           "layout": "left",
@@ -738,8 +734,6 @@
               "link": "shopify:\/\/products\/roadcase-black",
               "link_text": "SHOP",
               "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/4R5A2494.jpg",
-              "mobile_image_one": "shopify:\/\/shop_images\/4R5A2494.jpg",
               "focal_point": "center center"
             }
           },
@@ -752,8 +746,6 @@
               "link": "shopify:\/\/collections\/sunglasses",
               "link_text": "SHOP",
               "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/4R5A2544.jpg",
-              "mobile_image_one": "shopify:\/\/shop_images\/4R5A2543.jpg",
               "focal_point": "center center"
             }
           },
@@ -766,8 +758,6 @@
               "link": "shopify:\/\/products\/amplify-black",
               "link_text": "Shop",
               "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/ROADCASE.jpg",
-              "mobile_image_one": "shopify:\/\/shop_images\/ROADCASE-3.jpg",
               "focal_point": "center center"
             }
           },
@@ -780,8 +770,6 @@
               "link": "shopify:\/\/products\/tour-tee",
               "link_text": "SHOP",
               "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/tour_tee_banner.jpg",
-              "mobile_image_one": "shopify:\/\/shop_images\/tour_tee_banner_324ab690-8ea3-41fd-a282-08ab0e65b35a.jpg",
               "focal_point": "center center"
             }
           }
@@ -808,7 +796,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/img598.jpg",
               "title": "",
               "text": "",
               "button_label": "",
@@ -847,7 +834,6 @@
           "text": "",
           "button_label": "",
           "button_link": "",
-          "image": "shopify:\/\/shop_images\/Photo_Aug_16_3_27_28_PM.jpg",
           "alignment": "center",
           "color_border": "#f4f4f4",
           "layout": "left",
@@ -1468,7 +1454,6 @@
           "16298563625be6073b-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/img598_copy.png",
               "link": "shopify:\/\/products\/amplify-rose",
               "width": "50%",
               "alignment": "top-middle"
@@ -1477,7 +1462,6 @@
           "c909836e-ae5b-4be2-92b6-e4fb35efdffc": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/img594_44db4329-7d09-442f-bafa-8aa7afd825e2.jpg",
               "link": "",
               "width": "50%",
               "alignment": "top-middle"
@@ -1505,8 +1489,6 @@
               "link": "shopify:\/\/collections\/all",
               "link_text": "",
               "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/4R5A2538.jpg",
-              "mobile_image_one": "shopify:\/\/shop_images\/4R5A2538.jpg",
               "focal_point": "center center"
             }
           }
@@ -1898,11 +1880,13 @@
           "blocks": {
             "product-image-row": {
               "type": "image-row",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-text-and-image": {
               "type": "text-and-image",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-background-image-text": {
               "type": "background-image-text",
@@ -1912,11 +1896,13 @@
             },
             "product-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "product-hero-video": {
               "type": "hero-video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1926,14 +1912,16 @@
             "product-text-columns",
             "product-hero-video"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
           "blocks": {
             "page-fading-images": {
               "type": "fading-images",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-rich-text": {
               "type": "rich-text",
@@ -1945,7 +1933,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -1955,7 +1944,8 @@
             },
             "page-featured-collection": {
               "type": "featured-collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1965,7 +1955,8 @@
             "page-background-image-text",
             "page-featured-collection"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [
