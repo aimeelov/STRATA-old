@@ -183,7 +183,7 @@
           "per_row": 2,
           "collection_image_enable": false,
           "collection_subnav_style": "inline",
-          "collection_tags_style": "inline",
+          "collection_tags_style": "dropdown",
           "collection_sort_enable": true
         }
       },
